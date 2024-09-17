@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: none;
+  background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+#colorPick {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#label2,
+#pick2 {
+  margin-left: 10px;
+}
